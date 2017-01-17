@@ -1,13 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "ElectronReactStarter",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron starter",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/mikael-came/ElectronReactStarter",
   "keywords": [
     "Electron",
     "quick",
@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "electron": "^1.4.1",
+    "electron-reload": "^1.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "watchify": "^3.8.0"
